@@ -1,0 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testns.rhdhtest
+  description: Test repo
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: anshulbehl/test-project-rhdh-sandbox
+spec:
+  type: playbook-project
+  lifecycle: production
+  owner: anshulbehl
